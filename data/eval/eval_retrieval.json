@@ -1,0 +1,695 @@
+{
+ "answerable": [
+  {
+   "q": "How long do I have to notify the authority about a data breach?",
+   "accept": [
+    33
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9928777813911438,
+   "got": [
+    "Art. 33(1), p. 52",
+    "Recital 85, p. 16-17",
+    "Art. 33(2), p. 52",
+    "Recital 87, p. 17",
+    "Recital 86, p. 17"
+   ]
+  },
+  {
+   "q": "What is the right to be forgotten?",
+   "accept": [
+    17
+   ],
+   "top1": false,
+   "top5": true,
+   "context": true,
+   "score": 0.9760949611663818,
+   "got": [
+    "Recital 65, p. 12-13",
+    "Art. 17(1), p. 43-44",
+    "Art. 17(2), p. 44",
+    "Art. 17(3), p. 44",
+    "Recital 66, p. 13"
+   ]
+  },
+  {
+   "q": "What is the maximum fine for the most serious infringements?",
+   "accept": [
+    83
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.2607077956199646,
+   "got": [
+    "Art. 83(3), p. 82",
+    "Art. 83(5), p. 83",
+    "Art. 83(4), p. 82",
+    "Recital 152, p. 28",
+    "Recital 150, p. 27-28"
+   ]
+  },
+  {
+   "q": "What are the principles for processing personal data?",
+   "accept": [
+    5
+   ],
+   "top1": false,
+   "top5": true,
+   "context": true,
+   "score": 0.998336136341095,
+   "got": [
+    "Recital 39, p. 7",
+    "Art. 5(1), p. 35-36",
+    "Recital 78, p. 15",
+    "Recital 156, p. 29",
+    "Art. 9(1), p. 38"
+   ]
+  },
+  {
+   "q": "When is consent valid?",
+   "accept": [
+    7,
+    4
+   ],
+   "top1": false,
+   "top5": false,
+   "context": false,
+   "score": 0.7984405755996704,
+   "got": [
+    "Recital 43, p. 8",
+    "Art. 8, p. 37-38",
+    "Recital 32, p. 6",
+    "Recital 171, p. 31",
+    "Recital 42, p. 8"
+   ]
+  },
+  {
+   "q": "Can a data subject withdraw consent at any time?",
+   "accept": [
+    7
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9977787137031555,
+   "got": [
+    "Art. 7, p. 37",
+    "Art. 13(2), p. 41",
+    "Art. 14(2), p. 42",
+    "Art. 17(1), p. 43-44",
+    "Recital 42, p. 8"
+   ]
+  },
+  {
+   "q": "What is the age limit for a child's consent to online services?",
+   "accept": [
+    8
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.8965871334075928,
+   "got": [
+    "Art. 8, p. 37-38",
+    "Recital 38, p. 7",
+    "Recital 71, p. 14",
+    "Recital 65, p. 12-13",
+    "Art. 57(1), p. 68"
+   ]
+  },
+  {
+   "q": "What is the right of access by the data subject?",
+   "accept": [
+    15
+   ],
+   "top1": false,
+   "top5": true,
+   "context": true,
+   "score": 0.9985356330871582,
+   "got": [
+    "Recital 63, p. 12",
+    "Art. 15(1), p. 43",
+    "Art. 15(3), p. 43",
+    "Art. 15(2), p. 43",
+    "Art. 15(4), p. 43"
+   ]
+  },
+  {
+   "q": "What is the right to data portability?",
+   "accept": [
+    20
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9915721416473389,
+   "got": [
+    "Art. 20, p. 45",
+    "Recital 73, p. 14",
+    "Recital 68, p. 13",
+    "Art. 13(2), p. 41",
+    "Art. 14(2), p. 42"
+   ]
+  },
+  {
+   "q": "What is the right to rectification?",
+   "accept": [
+    16
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9711216688156128,
+   "got": [
+    "Art. 16, p. 43",
+    "Recital 73, p. 14",
+    "Art. 15(1), p. 43",
+    "Art. 14(2), p. 42",
+    "Art. 13(2), p. 41"
+   ]
+  },
+  {
+   "q": "What is the right to restriction of processing?",
+   "accept": [
+    18
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9958639144897461,
+   "got": [
+    "Art. 18, p. 44-45",
+    "Art. 14(2), p. 42",
+    "Art. 4(3), p. 33",
+    "Art. 13(2), p. 41",
+    "Art. 23(2), p. 47"
+   ]
+  },
+  {
+   "q": "What is the right to object to processing?",
+   "accept": [
+    21
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9803140163421631,
+   "got": [
+    "Art. 21(1), p. 45",
+    "Art. 21(6), p. 46",
+    "Recital 70, p. 13",
+    "Art. 21(2), p. 45",
+    "Recital 69, p. 13"
+   ]
+  },
+  {
+   "q": "What rights apply to automated decision-making and profiling?",
+   "accept": [
+    22
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9870331287384033,
+   "got": [
+    "Art. 22, p. 46",
+    "Recital 71, p. 14",
+    "Art. 15(1), p. 43",
+    "Art. 14(2), p. 42",
+    "Art. 13(2), p. 41"
+   ]
+  },
+  {
+   "q": "When must a data protection officer be designated?",
+   "accept": [
+    37
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9788385033607483,
+   "got": [
+    "Art. 37(1), p. 55",
+    "Art. 37(5), p. 55",
+    "Art. 37(4), p. 55",
+    "Art. 37(3), p. 55",
+    "Art. 37(2), p. 55"
+   ]
+  },
+  {
+   "q": "What are the tasks of the data protection officer?",
+   "accept": [
+    39
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9997391104698181,
+   "got": [
+    "Art. 39, p. 56",
+    "Art. 38, p. 55-56",
+    "Art. 37(6), p. 55",
+    "Art. 37(5), p. 55",
+    "Art. 57(3), p. 69"
+   ]
+  },
+  {
+   "q": "When is a data protection impact assessment required?",
+   "accept": [
+    35
+   ],
+   "top1": false,
+   "top5": true,
+   "context": true,
+   "score": 0.9977618455886841,
+   "got": [
+    "Recital 91, p. 17-18",
+    "Art. 35(3), p. 53",
+    "Recital 90, p. 17",
+    "Recital 92, p. 18",
+    "Recital 84, p. 16"
+   ]
+  },
+  {
+   "q": "When must the controller consult the supervisory authority before processing?",
+   "accept": [
+    36
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9982628226280212,
+   "got": [
+    "Art. 36(1), p. 54",
+    "Art. 36(2), p. 54",
+    "Art. 36(5), p. 55",
+    "Art. 36(4), p. 55",
+    "Art. 36(3), p. 54-55"
+   ]
+  },
+  {
+   "q": "When must the controller inform data subjects about a personal data breach?",
+   "accept": [
+    34
+   ],
+   "top1": false,
+   "top5": true,
+   "context": true,
+   "score": 0.9967498779296875,
+   "got": [
+    "Recital 86, p. 17",
+    "Recital 85, p. 16-17",
+    "Art. 33(1), p. 52",
+    "Art. 34(3), p. 53",
+    "Art. 34(1), p. 52"
+   ]
+  },
+  {
+   "q": "What information must be given when personal data is collected from the data subject?",
+   "accept": [
+    13
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9980725049972534,
+   "got": [
+    "Art. 13(1), p. 40-41",
+    "Recital 61, p. 12",
+    "Recital 60, p. 12",
+    "Art. 13(2), p. 41",
+    "Art. 14(1), p. 41-42"
+   ]
+  },
+  {
+   "q": "What information must be given when personal data was not obtained from the data subject?",
+   "accept": [
+    14
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9981545805931091,
+   "got": [
+    "Art. 14(1), p. 41-42",
+    "Art. 14(2), p. 42",
+    "Art. 14(3), p. 42",
+    "Art. 14(5), p. 42",
+    "Art. 14(4), p. 42"
+   ]
+  },
+  {
+   "q": "What are the lawful bases for processing personal data?",
+   "accept": [
+    6
+   ],
+   "top1": false,
+   "top5": true,
+   "context": true,
+   "score": 0.9885968565940857,
+   "got": [
+    "Recital 50, p. 9-10",
+    "Recital 40, p. 7-8",
+    "Recital 47, p. 9",
+    "Art. 6(3), p. 36-37",
+    "Recital 45, p. 8"
+   ]
+  },
+  {
+   "q": "Under what conditions can special categories of personal data be processed?",
+   "accept": [
+    9
+   ],
+   "top1": false,
+   "top5": true,
+   "context": true,
+   "score": 0.9946925044059753,
+   "got": [
+    "Recital 53, p. 10-11",
+    "Recital 51, p. 10",
+    "Recital 71, p. 14",
+    "Recital 54, p. 11",
+    "Art. 9(4), p. 39"
+   ]
+  },
+  {
+   "q": "What does data protection by design and by default mean?",
+   "accept": [
+    25
+   ],
+   "top1": false,
+   "top5": true,
+   "context": true,
+   "score": 0.943390429019928,
+   "got": [
+    "Recital 78, p. 15",
+    "Art. 25, p. 48",
+    "Recital 108, p. 20",
+    "Art. 47(2), p. 63",
+    "Recital 4, p. 1-2"
+   ]
+  },
+  {
+   "q": "What are the requirements for transferring personal data to third countries?",
+   "accept": [
+    44,
+    45,
+    46,
+    49
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9942751526832581,
+   "got": [
+    "Art. 49(1), p. 64",
+    "Recital 107, p. 20",
+    "Art. 45(1), p. 61",
+    "Art. 44, p. 60",
+    "Recital 101, p. 19"
+   ]
+  },
+  {
+   "q": "What is an adequacy decision?",
+   "accept": [
+    45
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.8550435304641724,
+   "got": [
+    "Art. 45(1), p. 61",
+    "Art. 45(3), p. 61",
+    "Art. 49(1), p. 64",
+    "Art. 45(2), p. 61",
+    "Art. 45(8), p. 61"
+   ]
+  },
+  {
+   "q": "What are binding corporate rules?",
+   "accept": [
+    47
+   ],
+   "top1": false,
+   "top5": true,
+   "context": true,
+   "score": 0.9991350769996643,
+   "got": [
+    "Art. 4(20), p. 34",
+    "Art. 47(2), p. 63",
+    "Art. 47(1), p. 62-63",
+    "Recital 110, p. 21",
+    "Recital 108, p. 20"
+   ]
+  },
+  {
+   "q": "What are the rules on records of processing activities?",
+   "accept": [
+    30
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9710350632667542,
+   "got": [
+    "Art. 30(1), p. 50-51",
+    "Recital 82, p. 16",
+    "Art. 30(2), p. 51",
+    "Art. 30(3), p. 51",
+    "Art. 30(5), p. 51"
+   ]
+  },
+  {
+   "q": "What are the obligations of a processor?",
+   "accept": [
+    28
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9748548269271851,
+   "got": [
+    "Art. 28(3), p. 49",
+    "Art. 28(4), p. 50",
+    "Recital 81, p. 16",
+    "Art. 90, p. 85",
+    "Art. 82(2), p. 81"
+   ]
+  },
+  {
+   "q": "What security measures must be implemented for processing?",
+   "accept": [
+    32
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.985592246055603,
+   "got": [
+    "Art. 32(1), p. 51-52",
+    "Recital 83, p. 16",
+    "Art. 25, p. 48",
+    "Art. 28(1), p. 49",
+    "Art. 5(1), p. 35-36"
+   ]
+  },
+  {
+   "q": "What is a joint controller and what must joint controllers arrange?",
+   "accept": [
+    26
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.969493567943573,
+   "got": [
+    "Art. 26, p. 48",
+    "Art. 36(3), p. 54-55",
+    "Art. 62(2), p. 73",
+    "Art. 60(2), p. 71",
+    "Art. 4(7), p. 33"
+   ]
+  },
+  {
+   "q": "When must a company outside the EU appoint a representative in the EU?",
+   "accept": [
+    27
+   ],
+   "top1": false,
+   "top5": true,
+   "context": true,
+   "score": 0.07006102800369263,
+   "got": [
+    "Recital 80, p. 15-16",
+    "Art. 27, p. 48-49",
+    "Art. 4(17), p. 34",
+    "Art. 68, p. 76",
+    "Art. 37(2), p. 55"
+   ]
+  },
+  {
+   "q": "Which supervisory authority is competent for cross-border processing?",
+   "accept": [
+    56
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.99665367603302,
+   "got": [
+    "Art. 56(1), p. 67",
+    "Art. 56(6), p. 68",
+    "Recital 36, p. 6-7",
+    "Recital 116, p. 22",
+    "Art. 55, p. 67"
+   ]
+  },
+  {
+   "q": "What are the powers of a supervisory authority?",
+   "accept": [
+    58
+   ],
+   "top1": false,
+   "top5": true,
+   "context": true,
+   "score": 0.9974639415740967,
+   "got": [
+    "Recital 129, p. 24",
+    "Art. 58(1), p. 69",
+    "Art. 58(3), p. 70",
+    "Art. 58(2), p. 69-70",
+    "Art. 62(3), p. 73"
+   ]
+  },
+  {
+   "q": "Who can claim compensation for damage and who is liable?",
+   "accept": [
+    82
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.8577886819839478,
+   "got": [
+    "Art. 82(5), p. 81",
+    "Recital 146, p. 27",
+    "Art. 82(4), p. 81",
+    "Art. 82(1), p. 81",
+    "Art. 82(2), p. 81"
+   ]
+  },
+  {
+   "q": "Within what time must a controller respond to a data subject's request?",
+   "accept": [
+    12
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9890941977500916,
+   "got": [
+    "Art. 12(3), p. 40",
+    "Recital 59, p. 11",
+    "Art. 12(4), p. 40",
+    "Art. 14(3), p. 42",
+    "Art. 33(1), p. 52"
+   ]
+  },
+  {
+   "q": "Does the GDPR apply to companies established outside the EU?",
+   "accept": [
+    3
+   ],
+   "top1": false,
+   "top5": true,
+   "context": true,
+   "score": 0.8945143818855286,
+   "got": [
+    "Recital 25, p. 5",
+    "Art. 3, p. 32-33",
+    "Art. 27, p. 48-49",
+    "Recital 16, p. 3",
+    "Art. 47(2), p. 63"
+   ]
+  },
+  {
+   "q": "What counts as personal data under the GDPR?",
+   "accept": [
+    4
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9648440480232239,
+   "got": [
+    "Art. 4(1), p. 33",
+    "Art. 9(1), p. 38",
+    "Art. 4(15), p. 34",
+    "Art. 5(1), p. 35-36",
+    "Art. 4(12), p. 34"
+   ]
+  },
+  {
+   "q": "What special rules apply to processing for archiving or scientific research?",
+   "accept": [
+    89
+   ],
+   "top1": false,
+   "top5": true,
+   "context": true,
+   "score": 0.9644100069999695,
+   "got": [
+    "Recital 156, p. 29",
+    "Art. 89(1), p. 84-85",
+    "Art. 89(2), p. 85",
+    "Art. 89(4), p. 85",
+    "Recital 159, p. 30"
+   ]
+  },
+  {
+   "q": "Can member states make rules on processing employee data?",
+   "accept": [
+    88
+   ],
+   "top1": true,
+   "top5": true,
+   "context": true,
+   "score": 0.9959347248077393,
+   "got": [
+    "Art. 88, p. 84",
+    "Recital 155, p. 29",
+    "Recital 10, p. 2",
+    "Art. 90, p. 85",
+    "Recital 164, p. 30"
+   ]
+  },
+  {
+   "q": "How can a data subject lodge a complaint with a supervisory authority?",
+   "accept": [
+    77
+   ],
+   "top1": false,
+   "top5": true,
+   "context": true,
+   "score": 0.9991113543510437,
+   "got": [
+    "Recital 141, p. 25-26",
+    "Art. 77, p. 80",
+    "Recital 142, p. 26",
+    "Art. 80, p. 81",
+    "Art. 79, p. 80"
+   ]
+  }
+ ],
+ "unanswerable_scores": [
+  5.794797107228078e-05,
+  0.005032029002904892,
+  0.05680438503623009,
+  0.011250192299485207,
+  1.9644374333438464e-05
+ ]
+}

@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.0
+python-dotenv
+numpy
+sentence-transformers>=3.0
+qdrant-client>=1.10
+rank_bm25
+groq

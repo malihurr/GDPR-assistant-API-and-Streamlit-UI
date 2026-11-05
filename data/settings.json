@@ -1,0 +1,6 @@
+{
+ "ARTICLE_BONUS": 0.1,
+ "MIN_SCORE": 0.015,
+ "MIN_SUPPORT": 0.8,
+ "MIN_OVERLAP": 0.3
+}
