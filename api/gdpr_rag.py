@@ -15,6 +15,7 @@ N_CANDIDATES = int(os.getenv("N_CANDIDATES", "20"))
 RERANK_BATCH = int(os.getenv("RERANK_BATCH", "8"))
 RERANK_MAX_LEN = int(os.getenv("RERANK_MAX_LEN", "1024"))   # tested value; lower = faster but must be re-checked
 LLM_EFFORT = os.getenv("LLM_EFFORT", "medium")              # tested value; "low" = faster but must be re-checked
+LLM_MAX_TOKENS = int(os.getenv("LLM_MAX_TOKENS", "4000"))   # thinking tokens count too; 2500 could cut the JSON short
 DAILY_LLM_CALLS = int(os.getenv("DAILY_LLM_CALLS", "60"))
 EMBED_MODEL = "BAAI/bge-m3"
 RERANK_MODEL = "BAAI/bge-reranker-v2-m3"
@@ -256,13 +257,17 @@ class GDPRBot:
         for m in LLM_MODELS:
             try:
                 r = self.groq.chat.completions.create(
-                    model=m, temperature=0, max_tokens=2500, reasoning_effort=effort,
+                    model=m, temperature=0, max_tokens=LLM_MAX_TOKENS, reasoning_effort=effort,
                     messages=[{"role": "system", "content": system}, {"role": "user", "content": user}])
                 text = re.sub(r"<think>.*?</think>", "", (r.choices[0].message.content or "").strip(), flags=re.S).strip()
+                usage = getattr(r, "usage", None)
+                print(f"[llm] model={m} effort={effort} finish={r.choices[0].finish_reason} "
+                      f"completion_tokens={getattr(usage, 'completion_tokens', '?')} chars={len(text)}", flush=True)
                 return text, m
             except Exception as e:
                 last = e
                 if "429" in str(e) or "rate limit" in str(e).lower():
+                    print(f"[llm] {m} is at its limit, trying the next model", flush=True)
                     continue                                 # try the backup model
                 raise
         raise last
@@ -337,11 +342,13 @@ class GDPRBot:
         t_llm = time.time()
         data, model = None, None
         try:
-            for _ in range(2):                               # retry once if the form is unreadable
-                raw, model = self._llm(self.prompt, f"Context passages:\n\n{ctx}\n\nQuestion: {q}", effort=LLM_EFFORT)
+            for attempt in range(2):                         # retry once if the form is unreadable
+                effort = LLM_EFFORT if attempt == 0 else "low"
+                raw, model = self._llm(self.prompt, f"Context passages:\n\n{ctx}\n\nQuestion: {q}", effort=effort)
                 data = parse_json(raw)
                 if isinstance(data, dict):
                     break
+                print(f"[llm] unreadable reply (attempt {attempt + 1}, model {model}): {raw[:300]!r}", flush=True)
         except Exception as e:
             print(f"[timing] AI call failed after {time.time() - t_llm:.1f}s: {str(e)[:200]}", flush=True)
             busy = "429" in str(e) or "rate limit" in str(e).lower()
